@@ -16,7 +16,7 @@
 		046D4D8B2496008700120869 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D4D892496008700120869 /* Networking.swift */; };
 		046D4D8C2496008700120869 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D4D8A2496008700120869 /* Models.swift */; };
 		046D4D9924960F0E00120869 /* Assest.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046D4D9824960F0E00120869 /* Assest.xcassets */; };
-		046D4DA72497204C00120869 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D4DA62497204C00120869 /* Country.swift */; };
+		046D4DA924974B4900120869 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D4DA824974B4900120869 /* Country.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		046D4D892496008700120869 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		046D4D8A2496008700120869 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		046D4D9824960F0E00120869 /* Assest.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assest.xcassets; sourceTree = "<group>"; };
-		046D4DA62497204C00120869 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Country.swift; path = "../../../IOSClasswork8 2/iOSClasswork8/Country.swift"; sourceTree = "<group>"; };
+		046D4DA824974B4900120869 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 		046D4DA12496587E00120869 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				046D4DA62497204C00120869 /* Country.swift */,
+				046D4DA824974B4900120869 /* Country.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,7 +185,7 @@
 				040FC8EC249331D600CC6A88 /* TableViewController.swift in Sources */,
 				040FC8D42493287C00CC6A88 /* AppDelegate.swift in Sources */,
 				046D4D8B2496008700120869 /* Networking.swift in Sources */,
-				046D4DA72497204C00120869 /* Country.swift in Sources */,
+				046D4DA924974B4900120869 /* Country.swift in Sources */,
 				046D4D882495822100120869 /* weatherDetails.swift in Sources */,
 				040FC8D62493287C00CC6A88 /* SceneDelegate.swift in Sources */,
 				046D4D8C2496008700120869 /* Models.swift in Sources */,
@@ -334,7 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = /Users/mac/Documents/IOS2020/KuwaitCodes2/Day8/iOSClasswork8/iOSClasswork8/info.plist;
+				INFOPLIST_FILE = "/Users/mac/Documents/IOS2020/KuwaitCodes2/day_8/ios-cw-8/IOSClasswork8/iOSClasswork8/info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -352,7 +352,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = /Users/mac/Documents/IOS2020/KuwaitCodes2/Day8/iOSClasswork8/iOSClasswork8/info.plist;
+				INFOPLIST_FILE = "/Users/mac/Documents/IOS2020/KuwaitCodes2/day_8/ios-cw-8/IOSClasswork8/iOSClasswork8/info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
