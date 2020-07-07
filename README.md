@@ -16,10 +16,26 @@
 قبل أن تبدأ … 
  و الذي يتكون من City تعرف على الهيكل 
 
-''' (Swift)
-
-'''
-<img width="393" alt="Screen Shot 2020-06-15 at 9 23 17 AM" src="https://user-images.githubusercontent.com/64652496/84626815-77962700-aeee-11ea-8a63-77933730441a.png">
+```Swift
+struct City{
+    let name : String
+    let cardName: String
+    let remarkablePlaceName : String
+    
+    func cardImage () -> UIImage
+    {
+        return UIImage(named: cardName)!
+    }
+       
+    
+    func remarkablePlaceImage () -> UIImage
+    {
+        return UIImage(named: remarkablePlaceName)!
+    }
+    
+    
+}
+```
 
 > "😉ملاحظة :  مصفوفة من كوائن المدن جاهزة لك "سهلناها عليكم 
 5.  TableView في الـ Cell و حدد الخلية  Storyboard انتقل الى الـ 
