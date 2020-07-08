@@ -12,7 +12,6 @@ import UIKit
 struct City{
     let name : String
     let cardName: String
-    let remarkablePlaceName : String
     
     func cardImage () -> UIImage
     {
@@ -22,6 +21,7 @@ struct City{
     
     func remarkablePlaceImage () -> UIImage
     {
+        let remarkablePlaceName = "\(name) 1"
         return UIImage(named: remarkablePlaceName)!
     }
     
@@ -30,9 +30,9 @@ struct City{
 
 
 var cities :[City] = [
-    City(name: "الكويت", cardName: "الكويت", remarkablePlaceName: "أبراج الكويت"),
-    City(name: "الرياض", cardName: "الرياض", remarkablePlaceName: "برج المملكة"),
-    City(name: "دبي", cardName: "دبي", remarkablePlaceName: "برج خليفة"),
-    City(name: "لندن", cardName: "لندن", remarkablePlaceName: "عين لندن"),
-    City(name: "موسكو", cardName: "موسكو", remarkablePlaceName: "الميدان الأحمر")
+    City(name: "الكويت", cardName: "الكويت"),
+    City(name: "الرياض", cardName: "الرياض"),
+    City(name: "دبي", cardName: "دبي"),
+    City(name: "لندن", cardName: "لندن"),
+    City(name: "موسكو", cardName: "موسكو")
 ]
