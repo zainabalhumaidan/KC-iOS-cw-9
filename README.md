@@ -41,14 +41,14 @@
 
 
 
-<img src="images/image1.png" width="" alt="alt_text" title="image_tooltip">
+<img src="/UI1.png" width="200" alt="alt_text" title="image_tooltip">
 </p>
 
 
 
 
-3. 
-إذا قام بإدخال الدرجة قم باظهار  صورة مناسبة بعد الضغط على احسب درجتي
+ 
+3.إذا قام بإدخال الدرجة قم باظهار  صورة مناسبة بعد الضغط على احسب درجتي
 <p dir="rtl">
 مثال إذا كانت درجة الطالب ٩٠ وفوق قم باظهار صورة امتياز</p>
 
@@ -58,7 +58,7 @@
 
 
 
-<img src="images/image2.png" width="" alt="alt_text" title="image_tooltip">
+<img src="/UI2.png" width="200" alt="alt_text" title="image_tooltip">
 </p>
 
 
