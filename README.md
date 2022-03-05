@@ -40,6 +40,16 @@ var number = 12+8
 
 
 
+* 
+عملية التحويل بين أنواع البيانات Casting
+```
+var stringNumber = "9"
+
+var doubleNumber = Double(stringNumber) ?? 3.8
+```
+
+
+
 ---
 
 ## تمرين
@@ -82,3 +92,28 @@ var number = 12+8
 
 `Hello my name is your name and my age is your age`
 
+
+
+
+5.قم بإنشاء ٣ متغيرات:
+<p dir="rtl">
+   الأول من نوع String يحتوي على رقم 8</p>
+
+
+<p dir="rtl">
+   الثاني من نوع Int يحتوي على رقم 4</p>
+
+
+<p dir="rtl">
+   الثالث من نوع Double يحتوي على 2.5</p>
+
+
+
+
+ 
+6.قم بعملية الجمع بين المتغير الأول والثاني وضع النتيجة في المتغير الثالث .
+
+<p dir="rtl">
+Hint: ✨   
+Casting 
+<p/>
