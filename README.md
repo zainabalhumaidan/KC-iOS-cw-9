@@ -1,127 +1,65 @@
-# في هذه التمارين سيتم عمل ٤ تمارين منفصلة :
-## العمليات الحسابية - المصفوفات - جملة الدوران - الدوال
+  <h1 align="right">التمرين 1 </h1>
 
-
-
----
-
-
-# العمليات الحسابية 
+<p dir="rtl">
+<img src="/cw1.gif" width="200" alt="alt_text" title="image_tooltip">
+</p>
 
 
 <p dir="rtl">
-فيديوهات الدرس</p>
+في هذا التمرين ستقوم بعمل برنامج تعرض فيه أفلامك المفضلة مع صور الممثلين لهذا الفيلم ، يمكنك اختيار ٣ أفلام أو أكثر.</p>
 
-
-
-
-
-* [العمليات الحسابية](https://youtu.be/lwk8AIx2lnk)  
-
----
-
-
-# <p dir="rtl">
-شرح الدرس</p>
-
-
-
-
-
-العمليات الحسابية التي يمكن استخدامها في البرمجة وطريقة كتابتها
-
-
-* الجمع   `+`
-* الطرح   `-`
-* الضرب   `*`
-* القسمة  `/`  
-* باقي القسمة `%`
-
-<p dir="rtl">
-يمكنك حفظ نتيجة العملية الحسابية في متغير </p>
-
-
-
-```
-var number = 12+8
-```
-
-
-
-* 
-عملية التحويل بين أنواع البيانات Casting
-```
-var stringNumber = "9"
-
-var doubleNumber = Double(stringNumber) ?? 3.8
-```
-
-
-
----
-
-## تمرين
 
 
 <p dir="rtl">
-في هذا التمرين سنقوم بتعلم العمليات الحسابية</p>
-
-
-
-
- 
-1.قم بإنشاء ملف playground 
-
-
-     File > new > playground > blank
-
-
-
- 
-2.قم بإنشاء ثلاث متغيرات 
-
-
-* الاسم name 
-* تاريخ الميلاد birthdayYear
-* العمر age
-
-
-
- 
-3.في متغير age قم بحسب عمرك من خلال متغير birthdayYear
-
-`Hint: current year - birthday`
-
-
-
- 
-4.قم بطباعة الجملة التالية واستخدم المتغيرات التي قمت بإنشائها مسبقا
-
-
-`Hello my name is your name and my age is your age`
-
-
-
-
-5.قم بإنشاء ٣ متغيرات:
-<p dir="rtl">
-   الأول من نوع String يحتوي على رقم 8</p>
-
+1. قم بفتح ملف Xcode 
 
 <p dir="rtl">
-   الثاني من نوع Int يحتوي على رقم 4</p>
-
-
-<p dir="rtl">
-   الثالث من نوع Double يحتوي على 2.5</p>
-
-
-
-
- 
-6.قم بعملية الجمع بين المتغير الأول والثاني وضع النتيجة في المتغير الثالث .
+2. قم بانشاء تطبيق جديد باسم Movie App
 
 <p dir="rtl">
-Hint: ✨   
-Casting 
-<p/>
+3. قم بعمل التطبيق كما هو موضح بالصورة.
+
+<p dir="rtl">
+4. ستحتاج إلى :
+
+<p dir="rtl">
+* Stacks
+
+<p dir="rtl">
+* Array
+
+<p dir="rtl">
+* Images
+
+<p dir="rtl">
+* List
+
+<p dir="rtl">
+* Navigation View
+
+<p dir="rtl">
+* Navigation Title
+
+<p dir="rtl">
+* Navigation Link
+
+<p dir="rtl">
+* Extract SubView -> للسطر الموجود داخل List
+
+<p dir="rtl">
+* هيكل -> يتضمن : اسم الفيلم + اسماء الممثلين
+
+<p dir="rtl">
+* كائن من الهيكل
+
+<p dir="rtl">
+* ForEach
+
+<p dir="rtl">
+* ScrollView
+
+
+<br>
+<br>
+
+
